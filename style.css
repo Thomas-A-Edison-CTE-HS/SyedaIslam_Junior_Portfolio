@@ -1,5 +1,73 @@
-html{
-	height: 99%;
-	width: 99%;
-	background-color: dark;
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #0f3e0f;
+}
+.intro{
+  width: 750px;
+  height: 200px;
+  background-color: #82b082;
+  color: black;
+  font-size: 25px;
+  text-align: left;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+.links {
+  background-color: #82b082;
+  width: 100%;
+  height: 35px;
+  text-align: right;
+}
+.links a {
+  text-decoration: none;
+  text-align: right center;
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  margin: 0 15px;
+  transition: background-color 0.3s;
+}
+.links a:hover {
+  color: white;
+}
+.introNB {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  background-color: #82b082;
+  color: black;
+  font-size: 17px;
+  text-align: left;
+  padding: 10px;
+}
+.unit1, .unit2, .unit3, .unit4 {
+  font-size: 25px;
+}
+.introLABS {
+  display: fixed;
+  justify-content: center;
+  margin: 10px auto;
+  background-color: #82b082;
+  color: black;
+  font-size: 17px;
+  text-align: left;
+  padding: 5px;
+}
+.ps1{
+  font-size: 20px;
+}
+pre {
+  background-color: #82b082;
+  font-size: 20px;
+  overflow: auto;
+  max-width: 650px;
+  padding: 5px;
+}
+.ps1code {
+  align-items: flex-start;
+  display: flex;
+  justify-content: right;
+  margin: -425px 5px;
 }
